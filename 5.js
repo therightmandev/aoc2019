@@ -59,6 +59,7 @@ function run(mem) {
 			} else {
 				//output value
 				var output = get_op(param_modes.slice(-1), i+1);
+				mem[0] = output;
 				console.log('ouput:', output);
 			}
 			i += 2;
